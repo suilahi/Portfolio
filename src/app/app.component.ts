@@ -4,11 +4,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjetComponent } from './projet/projet.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,NavbarComponent,HomeComponent,AboutComponent,ProjetComponent],
+  imports: [RouterOutlet,NavbarComponent,HomeComponent,AboutComponent,ProjetComponent,ContactComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
